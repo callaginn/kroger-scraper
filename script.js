@@ -46,5 +46,23 @@ function getRandomInt(min, max) {
 	// Navigate to Kroger sign-in page
 	await page.goto('https://www.kroger.com/signin', { waitUntil: 'networkidle2' });
 	
+	// Wait for username field and type username
+	await page.waitForSelector('input#signInName', { visible: true });
+	await new Promise(resolve => setTimeout(resolve, getRandomInt(1000, 2000))); // random delay
+	await page.type('input#signInName', config.username, { delay: getRandomInt(100, 200) });
+	
+	// Wait for password field and type password
+	await page.waitForSelector('input#password', { visible: true });
+	await new Promise(resolve => setTimeout(resolve, getRandomInt(1000, 2000))); // random delay
+	await page.type('input#password', config.password, { delay: getRandomInt(100, 200) });
+	
+	await new Promise(resolve => setTimeout(resolve, getRandomInt(1000, 2000))); // random delay
+	
+	// Click the sign-in button
+	await Promise.all([
+		page.click('button[type="submit"]'), // Adjust this selector based on the actual button
+		page.waitForNavigation({ waitUntil: 'networkidle2' }) // Wait for navigation to finish
+	]);
+	
 	console.log('Signed in successfully!');
 })();
