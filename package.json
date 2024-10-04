@@ -1,0 +1,14 @@
+{
+	"name": "kroger-scraper",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/callaginn/kroger-scraper.git",
+	"author": "Stephen Ginn <callaginn@users.noreply.github.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "node script.js"
+	},
+	"dependencies": {
+		"puppeteer": "^23.5.0"
+	}
+}
