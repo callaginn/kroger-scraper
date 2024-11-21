@@ -1,2 +1,7 @@
-user_data
-config.json
+node_modules
+.nova
+src/data
+src/dev
+cookies.json
+telemetry.txt
+urls.txt

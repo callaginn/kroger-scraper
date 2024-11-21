@@ -1,14 +1,31 @@
 {
-	"name": "kroger-scraper",
+	"name": "kroger-receipt-sweeper",
 	"version": "1.0.0",
 	"main": "index.js",
+	"type": "module",
 	"repository": "https://github.com/callaginn/kroger-scraper.git",
 	"author": "Stephen Ginn <callaginn@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "node script.js"
+		"sweep1": "node src/sweep1.js",
+		"sweep2": "node src/sweep2.js",
+		"sweep3": "node src/sweep3.js",
+		"sweep3b": "node src/sweep3b.js",
+		"cleanup": "node src/cleanup.js",
+		"refresh_token": "node src/refresh_token.js",
+		"lookup": "node src/lookup.js",
+		"categorize": "node src/categorize.js",
+		"bot": "node src/dev/bot-puppeteer.js"
 	},
 	"dependencies": {
-		"puppeteer": "^23.5.0"
+		"@1password/op-js": "^0.1.13",
+		"@inquirer/prompts": "^7.1.0",
+		"@playwright/test": "^1.48.1",
+		"csv-writer": "^1.6.0",
+		"papaparse": "^5.4.1",
+		"playwright-extra": "^4.3.6",
+		"puppeteer": "^23.5.0",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
 	}
 }
