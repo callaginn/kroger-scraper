@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"type": "module",
-	"repository": "https://github.com/callaginn/kroger-scraper.git",
+	"repository": "https://github.com/callaginn/kroger-sweeper.git",
 	"author": "Stephen Ginn <callaginn@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
