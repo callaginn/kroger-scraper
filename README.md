@@ -36,21 +36,21 @@ This script loads `products.json` and uses the Kroger api to request information
 ### 4. Categorize items with `yarn categorize`
 This script matches the products from `products.json` to `receipts.json`. Easiest course of action would be looping through categories.json and assigning the category based off the upc key.
 
-# Useful References
-https://www.zyte.com/blog/how-to-scrape-the-web-without-getting-blocked/<br>
-https://datadome.co/bot-management-protection/detecting-headless-chrome-puppeteer-extra-plugin-stealth/<br>
-https://scrapeops.io/puppeteer-web-scraping-playbook/nodejs-puppeteer-make-puppeteer-undetectable/<br>
-https://stackoverflow.com/questions/33225947/can-a-website-detect-when-you-are-using-selenium-with-chromedriver/41220267#41220267<br>
-https://substack.thewebscraping.club/p/scraping-akamai-protected-website<br>
-https://filipvitas.medium.com/how-to-set-user-agent-header-with-puppeteer-js-and-not-fail-28c7a02165da<br>
-https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected<br>
+## Useful References
+- [How to scrape the web without getting blocked (Zyte.com)](https://www.zyte.com/blog/how-to-scrape-the-web-without-getting-blocked/)
+- [Detecting Headless Chrome’s Puppeteer Extra Stealth Plugin with JavaScript Browser Fingerprinting](https://datadome.co/bot-management-protection/detecting-headless-chrome-puppeteer-extra-plugin-stealth/)
+- [How To Make Puppeteer Undetectable](https://scrapeops.io/puppeteer-web-scraping-playbook/nodejs-puppeteer-make-puppeteer-undetectable/)
+- [Can a website detect when you are using Selenium with chromedriver?](https://stackoverflow.com/questions/33225947/can-a-website-detect-when-you-are-using-selenium-with-chromedriver/41220267#41220267)
+- [How to set User-Agent header with Puppeteer JS and not fail](https://filipvitas.medium.com/how-to-set-user-agent-header-with-puppeteer-js-and-not-fail-28c7a02165da)
+- [THE LAB #22 - Scraping Akamai protected websites](https://substack.thewebscraping.club/p/scraping-akamai-protected-website)
+- [THE LAB #30: How to bypass Akamai protected website when nothing else works](https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
 
-# Bot Tests
-https://deviceandbrowserinfo.com/http_headers<br>
-https://www.browserscan.net<br>
-https://www.browserscan.net/bot-detection<br>
-https://bot.sannysoft.com/<br>
-https://browserleaks.com/canvas<br>
-https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html<br>
-https://bot-detector.rebrowser.net/<br>
-https://fingerprintjs.github.io/BotD/main/
+## Bot Tests
+- [Your HTTP headers](https://deviceandbrowserinfo.com/http_headers)
+- [BrowserScan Device Info](https://www.browserscan.net)
+- [BrowserScan Bot Detection](https://www.browserscan.net/bot-detection)
+- [SannySoft Bot Fingerprint Scanner](https://bot.sannysoft.com/)
+- [Canvas Fingerprinting](https://browserleaks.com/canvas)
+- [Calculate reCAPTCHA 3 Score](https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html)
+- [Rebrowser Bot Detector](https://bot-detector.rebrowser.net/)
+- [FingerprintJS Bot Detector](https://fingerprintjs.github.io/BotD/main/)
