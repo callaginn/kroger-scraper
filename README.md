@@ -36,6 +36,11 @@ This script loads `products.json` and uses the Kroger api to request information
 ### 4. Categorize items with `yarn categorize`
 This script matches the products from `products.json` to `receipts.json`. Easiest course of action would be looping through categories.json and assigning the category based off the upc key.
 
+## Development Info and Scripts
+The `src/dev/docs` folder contains a list of markdown files that explains how the process works.
+
+Run `yarn dev bot` to get a feel for how bot detectors like [Akamai's Bot Manager](https://www.akamai.com/products/bot-manager) (used by Kroger) detect bots and ID your device by browser.
+
 ## Useful References
 - [How to scrape the web without getting blocked (Zyte.com)](https://www.zyte.com/blog/how-to-scrape-the-web-without-getting-blocked/)
 - [Detecting Headless Chrome’s Puppeteer Extra Stealth Plugin with JavaScript Browser Fingerprinting](https://datadome.co/bot-management-protection/detecting-headless-chrome-puppeteer-extra-plugin-stealth/)
