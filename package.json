@@ -15,7 +15,7 @@
 		"refresh_token": "node src/refresh_token.js",
 		"lookup": "node src/lookup.js",
 		"categorize": "node src/categorize.js",
-		"bot": "node src/dev/bot-puppeteer.js"
+		"bot": "node src/dev/bot.js"
 	},
 	"dependencies": {
 		"@1password/op-js": "^0.1.13",

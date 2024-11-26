@@ -42,7 +42,7 @@ This script matches the products from `products.json` to `receipts.json`. Easies
 - [How To Make Puppeteer Undetectable](https://scrapeops.io/puppeteer-web-scraping-playbook/nodejs-puppeteer-make-puppeteer-undetectable/)
 - [Can a website detect when you are using Selenium with chromedriver?](https://stackoverflow.com/questions/33225947/can-a-website-detect-when-you-are-using-selenium-with-chromedriver/41220267#41220267)
 - [How to set User-Agent header with Puppeteer JS and not fail](https://filipvitas.medium.com/how-to-set-user-agent-header-with-puppeteer-js-and-not-fail-28c7a02165da)
-- [THE LAB #22 - Scraping Akamai protected websites](https://substack.thewebscraping.club/p/scraping-akamai-protected-website)
+- [THE LAB #22: Scraping Akamai protected websites](https://substack.thewebscraping.club/p/scraping-akamai-protected-website)
 - [THE LAB #30: How to bypass Akamai protected website when nothing else works](https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
 
 ## Bot Tests

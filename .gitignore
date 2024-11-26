@@ -1,7 +1,8 @@
 node_modules
 .nova
 src/data
-src/dev
+src/dev/sweep*.js
+src/dev/ua-*.js
 cookies.json
 telemetry.txt
 urls.txt
